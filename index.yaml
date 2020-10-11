@@ -3,7 +3,7 @@ entries:
   multi-stage-react-app:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-10-11T00:51:45.874286-04:00"
+    created: "2020-10-11T19:18:02.348018-04:00"
     description: A Helm chart for a multi-stage React.js demo PoC application
     digest: bbeb569c6bbdf2904101b54f64105022b57b32985b2532702c61105cb50d5636
     name: multi-stage-react-app
@@ -11,4 +11,15 @@ entries:
     urls:
     - https://damianesteban.github.io/helm-repo/multi-stage-react-app-0.1.0.tgz
     version: 0.1.0
-generated: "2020-10-11T00:51:45.872347-04:00"
+  multi-stage-react-app-chart:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2020-10-11T19:18:02.348638-04:00"
+    description: A Helm chart for a multi-stage React.js demo PoC application
+    digest: c894856ebb04143039ae0a7b501a1ef111ad24bca1281388a7e2d174e3cfa83c
+    name: multi-stage-react-app-chart
+    type: application
+    urls:
+    - https://damianesteban.github.io/helm-repo/multi-stage-react-app-chart-0.1.1.tgz
+    version: 0.1.1
+generated: "2020-10-11T19:18:02.346419-04:00"
