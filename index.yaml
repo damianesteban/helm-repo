@@ -2,7 +2,16 @@ apiVersion: v1
 entries:
   iron-app-chart:
   - apiVersion: v2
-    created: "2020-10-13T16:15:37.921367-04:00"
+    created: "2020-10-13T18:57:03.819352-04:00"
+    description: A Helm chart for iron app
+    digest: 62787056a08b9b3aa094af26bb19e575a0d4538eddd87c6ad4c9faf2172f442b
+    name: iron-app-chart
+    type: application
+    urls:
+    - https://damianesteban.github.io/helm-repo/iron-app-chart-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    created: "2020-10-13T18:57:03.818598-04:00"
     description: A Helm chart for iron app
     digest: ba3e6f387efa3914134af3f0aaf6f9f28349a69c51ddd1b687022a73456e3572
     name: iron-app-chart
@@ -13,12 +22,12 @@ entries:
   test-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-10-13T16:15:37.921917-04:00"
+    created: "2020-10-13T18:57:03.820126-04:00"
     description: A Helm chart for Kubernetes
-    digest: 9861ff65f7961fdd5adaaccd69bc3d5268b0b8019872c9ceb22b14db87f3d725
+    digest: d3d6164f26c6658e01397e2cd53a904cf48cdb24d72cc2af1d09a34c737c12ac
     name: test-chart
     type: application
     urls:
     - https://damianesteban.github.io/helm-repo/test-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2020-10-13T16:15:37.920561-04:00"
+generated: "2020-10-13T18:57:03.815782-04:00"
