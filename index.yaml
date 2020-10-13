@@ -2,34 +2,34 @@ apiVersion: v1
 entries:
   iron-app-chart:
   - apiVersion: v2
-    created: "2020-10-13T15:20:22.355768-04:00"
+    created: "2020-10-13T15:37:17.504059-04:00"
     description: A Helm chart for iron app
     digest: f59d27992249482488edb1050d0cf4eced5c12c792e9157784423731a7e07ac2
     name: iron-app-chart
     type: application
     urls:
-    - https://damianesteban.github.io/helm-repo/iron-app-chart-0.1.0.tgz
+    - iron-app-chart-0.1.0.tgz
     version: 0.1.0
   multi-stage-react-app:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-10-13T15:20:22.35646-04:00"
+    created: "2020-10-13T15:37:17.504923-04:00"
     description: A Helm chart for a multi-stage React.js demo PoC application
     digest: bbeb569c6bbdf2904101b54f64105022b57b32985b2532702c61105cb50d5636
     name: multi-stage-react-app
     type: application
     urls:
-    - https://damianesteban.github.io/helm-repo/multi-stage-react-app-0.1.0.tgz
+    - multi-stage-react-app-0.1.0.tgz
     version: 0.1.0
   multi-stage-react-app-chart:
   - apiVersion: v2
     appVersion: latest
-    created: "2020-10-13T15:20:22.357347-04:00"
+    created: "2020-10-13T15:37:17.505729-04:00"
     description: A Helm chart for a multi-stage React.js demo PoC application
     digest: c894856ebb04143039ae0a7b501a1ef111ad24bca1281388a7e2d174e3cfa83c
     name: multi-stage-react-app-chart
     type: application
     urls:
-    - https://damianesteban.github.io/helm-repo/multi-stage-react-app-chart-0.1.1.tgz
+    - multi-stage-react-app-chart-0.1.1.tgz
     version: 0.1.1
-generated: "2020-10-13T15:20:22.352147-04:00"
+generated: "2020-10-13T15:37:17.502664-04:00"
