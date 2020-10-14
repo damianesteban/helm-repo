@@ -35,19 +35,16 @@ ingress:
   enabled: true
   annotations:
     kubernetes.io/ingress.class: "nginx"
-    cert-manager.io/cluster-issuer: "letsencrypt-prod"
+    # cert-manager.io/cluster-issuer: "letsencrypt-prod"
   
   tls:
-  - hosts:
-    - app.immutable.store
-    secretName: "iron-app-tls"
-  rules:
-  - host: app.immutable.store
-    http:
-      paths:
-      - path: /
-        backend:
-          servicePort: 80
+  hosts:
+    - host: app.immutable.store
+      paths: [/]
+  #  - secretName: chart-example-tls
+  #    hosts:
+  #      - chart-example.local
+
 
 
 resources: {}
